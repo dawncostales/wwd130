@@ -1,24 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display+SC&family=Roboto:wght@300&display=swap');
+
+ 
 header{
     background-color: black;
     text-align: left;
+    font-family:Nunito
 }
-div ::content{
+.hero-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body{
     max-width: 1600px;
-    align-items: center;
+    margin:0 auto;
+    text-align: center;
+    font-family: Roboto;
+    font: 22px;
+    padding: 0;
 }
 div header {
     text-align: left;
-    size: 80px;
     background-color: black ;
 }
-#content {
-    margin:0 auto;
-}
-#backround{
+ #backround{
     width: 725px;
 }
 body{
-    background-color: #E0E1E1;
+    background-color: #E0E1E1; 
     text-align: center;
     color: black;
 }
@@ -31,13 +42,15 @@ h2{
     color: black;
     text-align: center;
     font-size: large;
+    margin: 0;
 }
-nav, a{
+nav a{
     text-align:left;
     color: #E0E1E1;
     text-decoration: none;
     font-size:x-large;
-
+    font-family: Playfair Display SC;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{ 
     text-align: center;
@@ -45,7 +58,7 @@ nav, a{
 .button-box  {
     text-align: center;
     color:black;
-    background-color: #E0E1E1;
+    background-color:#003852;
 }
 main section{
     text-align: center;}
@@ -54,8 +67,8 @@ nav a :hover {
     background-color: #85D8FF;
     color: #1F1E1F;
 }
-footer {
-    background-color: #becaca
+footer section {
+    background-color: #E0E1E1;
 }
 footer a{
     color: black;
@@ -75,6 +88,10 @@ h4 {
     background-color: #E0E1E1;
     color: #85D8FF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #003852;
@@ -83,12 +100,16 @@ h4 {
 .msg{
     background-color: #003852;
     align-items: center;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #E0E1E1;
 }
 .msg p{
     color: #E0E1E1;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .hero-img {
     align-self: center;   
@@ -99,7 +120,8 @@ h4 {
 footer p{ 
     font-size: 1.8em;
     color:black;
-    text-align: left;
+    text-align: center;
+
 }
 footer p a:hover {
     text-decoration: underline;
@@ -107,6 +129,7 @@ footer p a:hover {
 #logo-link {
     width: 80px;
     text-align:left;
+    padding-top: 5px;
 }
 .img {
    align-items: center;
@@ -116,10 +139,7 @@ footer p a:hover {
     color:wheat
 }
 .icon { 
-    size: 80px;
-}
-.logo{
-    size: 80px;
+    padding-top: 10px;
 }
 div .hero-img{
     width: fit-content;
@@ -130,4 +150,26 @@ footer h1{
 }
 footer h2{
     color:black
+}
+div .book{
+    background-color:#003852 ;
+}
+.home-title{
+    font-size: 2em;
+    font-family: Roboto;
+    margin-top: 10px ;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer.social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{ margin: 200px 0;}
+.card-img{ 
+    border: 10px solid #003852;
+}
+main section img{
+    box-sizing: border-box;
 }
