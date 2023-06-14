@@ -27,6 +27,7 @@ body{
     font-family: Roboto;
     font: 22px;
     padding: 0;
+    
 }
 h1{
     color: black;
@@ -48,7 +49,7 @@ h3{
 }
 nav {
     display: flex;
-    color: #010542;
+    fonty-color:;
     text-decoration: none;
     font-size:x-large;
     font-family: Playfair Display SC;
