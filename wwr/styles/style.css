@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display+SC&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barrio&family=Holtwood+One+SC&family=Life+Savers&family=Nunito:wght@300&family=Permanent+Marker&family=Playfair+Display+SC&family=Roboto:wght@300&family=Rubik+Mono+One&family=Staatliches&display=swap");
 
  
 header{
@@ -35,6 +35,7 @@ h1{
     text-align: center;
     font-size: large;
     align-self: center;
+    font-family: Roboto;
 }
 h2{
     color:#010542;
@@ -42,6 +43,7 @@ h2{
     font-size: large;
     margin: 0;
     margin-bottom: 100px;
+    font-family: staatliches;
 }
 
 h3{
@@ -70,9 +72,11 @@ nav ul li {
 }
 #hero-msg h4{ 
     text-align: center;
-    font-size: x-large;
+    font-size: 40px;
     font-style: bold;
-    color:#051b1b;
+    color:#fcf089;
+    font-family: Nenuto;
+    margin-top: 10px;
 }
 
 #hero-box {
@@ -83,7 +87,7 @@ nav ul li {
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 90px;
     justify-self:center
 
 }
@@ -101,20 +105,18 @@ footer a{
 footer a :hover{
     color: #85D8FF;
 }
-.home-title {
-    color: #E0E1E1;
-}
 .book, .join{
-    background-color: #E0E1E1;
+    background-color: #e0e1e1;
     color: #12252e;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 .book:hover, .join:hover {
-    background-color: #003852;
+    background-color: #d2f1ff;
     color: #0e2e3d;
 }
 
@@ -167,9 +169,10 @@ footer h2{
     color:black
 }
 .home-title{
-    font-size: 2em;
     font-family:Permanent Marker;
     margin-top: 10px ;
+    font-size: 50px;
+    color: whitesmoke;
 }
 footer.social img{
     padding-top: 15px;
@@ -192,13 +195,14 @@ footer.social img{
     background-size: cover;
     padding:100px;
     z-index: 0;
+    background-size: 150px 200px;
 }
 .msg{
     background-color: #003852;
     line-height: 1.5em;
     padding: 35px;
     box-shadow: 5px 5px 10px #f3f3f3;
-    font-size: x-large;
+    font-size: large;
     position: absolute;
     left: 1000px;
     top:250px;
@@ -241,17 +245,65 @@ footer.social img{
     opacity: .6;
     transform: scale(1.1);
 }
-.link-button {
-    background:white;
-    border: #4e8ba3;
-    padding: 0;
-    font: inherit;
-    color: rgb(32, 32, 46);
+.button {
+    display: inline-block;
+    perspective: 1000px; /* Sets the perspective for 3D transformations */
+  }
+  
+  .box {
+    position: relative;
+  }
+  .button {
+    display: inline-block;
+    perspective: 1000px; /* Sets the perspective for 3D transformations */
+  }
+  
+  .box {
+    position: relative;
+  }
+  .button {
+    display: inline-block;
+    perspective: 1000px; /* Sets the perspective for 3D transformations */
+  }
+  
+  .box {
+    position: relative;
+  }
+  
+  .link-button {
+    padding: 10px 20px;
+    background-color: #e96d07; /* Change to your desired button background color */
+    color: white;
+    border:2px;
     cursor: pointer;
-    width: 100px;
-    height: 40px;
-    font-size: large;
-}
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.4s;
+    transform-style: preserve-3d; /* Allows the button to maintain 3D transformations */
+  }
+  
+  .link-button:hover {
+    animation: pulse 2s infinite; /* Adds a pulsating animation on hover */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .link-button:active {
+    transform: translateY(2px); /* Adds a slight vertical push when the button is clicked */
+  }
+  
+  
 .container1{
     background-size: cover;
     background-position: center;
@@ -432,6 +484,7 @@ main {
     color: #333;
     margin: 20px;
     font-size:x-large;
+    font-family: ;
   }
 
   form {
